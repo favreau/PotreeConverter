@@ -107,3 +107,9 @@ add_custom_command(
 		${PROJECT_SOURCE_DIR}/README.md
 		$<TARGET_FILE_DIR:${PROJECT_NAME}>/README.md)
 
+
+###############################################
+# INSTALLATION
+###############################################
+install(TARGETS PotreeConverter DESTINATION bin)
+install(TARGETS laszip DESTINATION lib)
